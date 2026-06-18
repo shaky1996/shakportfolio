@@ -26,7 +26,7 @@ export function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <a className="brand" href="#home" onClick={closeMenu}>
-        <span className="brand__mark">SY</span>
+        
         <span>Shak Yuldashev</span>
       </a>
 

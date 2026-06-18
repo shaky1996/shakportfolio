@@ -48,8 +48,8 @@ export const skillGroups = [
     title: 'Database',
     items: [
       ['PostgreSQL', 'Pg', 'blue'],
-      ['MongoDB', '◆', 'green'],
-      ['SQL', '▤', 'white'],
+      ['MongoDB', 'MB', 'green'],
+      ['SQL', 'SQL', 'white'],
     ],
   },
   {
@@ -65,77 +65,64 @@ export const skillGroups = [
 ]
 
 export const projects = [
-  {
-    title: 'CDL Wallet',
-    description:
-      'Mobile app for drivers to securely store documents, track expiration dates, get notifications, and share important PDFs.',
-    tags: ['React Native', 'Expo', 'TypeScript', 'RevenueCat'],
-    type: 'mobile',
-    primaryLabel: 'Live App',
-    primaryUrl: 'https://apps.apple.com/',
-    githubUrl: profile.github,
-  },
-  {
-    title: 'IFTA Management System',
-    description:
-      'Web application to manage fuel tax reporting. Upload miles and fuel data and generate accurate IFTA reports.',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
-    type: 'dashboard',
-    primaryLabel: 'View Project',
-    primaryUrl: profile.github,
-    githubUrl: profile.github,
-  },
-  {
-    title: 'WGU Capstone Project',
-    description:
-      'Travel management system built with Java Spring Boot and PostgreSQL database.',
-    tags: ['Java', 'Spring Boot', 'Thymeleaf', 'PostgreSQL'],
-    type: 'table',
-    primaryLabel: 'View Project',
-    primaryUrl: profile.github,
-    githubUrl: profile.github,
-  },
-]
+    {
+        title: 'CDL Wallet',
+        description:
+            'Mobile app for drivers to securely store documents, track expiration dates, get notifications, and share important PDFs.',
+        tags: ['React Native', 'Expo', 'JavaScript', 'RevenueCat'],
+        image: '/projects/cdl-wallet.png',
+        imagePosition: 'center 58%',
+        primaryLabel: 'Live App',
+        primaryUrl: 'https://apps.apple.com/us/app/cdl-wallet/id6768152456',
+        githubUrl: profile.github
+    },
+    {
+        title: 'IFTA Management System',
+        description:
+            'Web application to manage fuel tax reporting. Upload miles and fuel data and generate accurate IFTA reports.',
+        tags: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
+        image: '/projects/ifta-management.png',
+        imagePosition: 'center 22%',
+        primaryLabel: 'View Project',
+        primaryUrl: profile.github,
+        githubUrl: profile.github
+    },
+    {
+        title: 'WGU Capstone Project',
+        description:
+            'Travel management system built with Java Spring Boot and PostgreSQL database.',
+        tags: ['Java', 'Spring Boot', 'Thymeleaf', 'PostgreSQL'],
+        image: '/projects/wgu-capstone.png',
+        imagePosition: 'center 24%',
+        primaryLabel: 'View Project',
+        primaryUrl: profile.github,
+        githubUrl: profile.github
+    }
+];
 
 export const certifications = [
   {
     title: 'AWS Cloud Practitioner',
     issuer: 'Amazon Web Services',
     issued: 'Dec 2023',
-    mark: 'aws',
-    color: 'orange',
-    url: 'https://www.credly.com/',
+    pdf: '/certificates/aws-cloud-practitioner.pdf',
   },
   {
     title: 'CompTIA Project+',
     issuer: 'CompTIA',
     issued: 'Nov 2023',
-    mark: 'P+',
-    color: 'red',
-    url: 'https://www.credly.com/',
-  },
-  {
-    title: 'ITIL 4 Foundation',
-    issuer: 'PeopleCert',
-    issued: 'Oct 2023',
-    mark: 'ITIL',
-    color: 'purple',
-    url: 'https://www.peoplecert.org/',
+    pdf: '/certificates/comptia-project-plus.pdf',
   },
   {
     title: 'Front-End Developer',
     issuer: 'WGU',
     issued: 'May 2024',
-    mark: 'WGU',
-    color: 'blue',
-    url: 'https://www.wgu.edu/',
+    pdf: '/certificates/wgu-front-end.pdf',
   },
   {
-    title: 'Back-End Developer',
-    issuer: 'WGU',
-    issued: 'May 2024',
-    mark: 'WGU',
-    color: 'blue',
-    url: 'https://www.wgu.edu/',
+    title: 'Back-End Development',
+    issuer: 'NuCamp',
+    issued: 'Course Certificate',
+    pdf: '/certificates/backend-development.pdf',
   },
 ]
