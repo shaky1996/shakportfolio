@@ -4,7 +4,7 @@ import { HeroVisual } from './HeroVisual'
 
 export function Hero() {
   return (
-    <section className="hero" id="home">
+    <section className="hero hero--smooth" id="home">
       <div className="hero__copy">
         <p className="eyebrow">Hello, I&apos;m</p>
         <h1>
@@ -42,12 +42,9 @@ export function Hero() {
             <Linkedin size={18} /> LinkedIn
           </a>
         </div>
-        <div className="availability">
-          <span>Available for</span>
-          <strong><i /> Full Time Opportunities</strong>
-        </div>
+       
       </div>
-      {/* <HeroVisual /> */}
+      <HeroVisual />
     </section>
   )
 }
