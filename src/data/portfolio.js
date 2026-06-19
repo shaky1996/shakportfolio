@@ -132,28 +132,46 @@ export const projects = [
 ];
 
 export const certifications = [
-  {
-    title: 'AWS Cloud Practitioner',
-    issuer: 'Amazon Web Services',
-    issued: 'Dec 2023',
-    pdf: '/certificates/aws-cloud-practitioner.pdf',
-  },
-  {
-    title: 'CompTIA Project+',
-    issuer: 'CompTIA',
-    issued: 'Nov 2023',
-    pdf: '/certificates/comptia-project-plus.pdf',
-  },
-  {
-    title: 'Front-End Developer',
-    issuer: 'WGU',
-    issued: 'May 2024',
-    pdf: '/certificates/wgu-front-end.pdf',
-  },
-  {
-    title: 'Back-End Development',
-    issuer: 'NuCamp',
-    issued: 'Course Certificate',
-    pdf: '/certificates/backend-development.pdf',
-  },
-]
+    {
+        title: 'AWS Cloud Practitioner',
+        issuer: 'Amazon Web Services',
+        issued: 'Jan 2026',
+        pdf: '/certificates/aws-cloud-practitioner.pdf'
+    },
+    {
+        title: 'CompTIA Project+',
+        issuer: 'CompTIA',
+        issued: 'Feb 2026',
+        pdf: '/certificates/comptia-project-plus.pdf'
+    },
+    {
+        title: 'ITIL 4',
+        issuer: 'PeopleCert',
+        issued: 'Mar 2026',
+        pdf: '/certificates/ITIL4_Yuldashev.pdf'
+    },
+    {
+        title: 'WGU Front-End Developer',
+        issuer: 'Western Governors University',
+        issued: 'Mar 2025',
+        pdf: '/certificates/Front_end_wgu.pdf'
+    },
+    {
+        title: 'WGU Back-End Developer',
+        issuer: 'Western Governors University',
+        issued: 'Mar 2026',
+        pdf: '/certificates/Back_end_wgu.pdf'
+    },
+    {
+        title: 'Front-End Web & Mobile Development',
+        issuer: 'NuCamp',
+        issued: 'Jan 2024',
+        pdf: '/certificates/Front_End_Web_nucamp.pdf'
+    },
+    {
+        title: 'Fullstack Web & Mobile Development',
+        issuer: 'NuCamp',
+        issued: 'Feb 2024',
+        pdf: '/certificates/Full_Stack_nucamp.pdf'
+    }
+];

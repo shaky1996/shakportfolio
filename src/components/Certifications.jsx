@@ -25,8 +25,10 @@ function CertificationCard({ certification, onOpen }) {
       </button>
       <div className="cert-card__copy">
         <h3>{certification.title}</h3>
-        <p>{certification.issuer}</p>
-        <small>{certification.issued}</small>
+        <div className="cert-card__meta">
+          <span>{certification.issuer}</span>
+          <time>{certification.issued}</time>
+        </div>
       </div>
     </article>
   )
