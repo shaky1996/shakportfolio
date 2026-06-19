@@ -1,11 +1,11 @@
 export const profile = {
-  name: 'Shak Yuldashev',
-  role: 'Software Engineer',
-  email: 'shak.yuldashev@gmail.com',
-  github: 'https://github.com/shaky1996',
-  linkedin: 'https://www.linkedin.com/in/shakyuldashev',
-  resume: '/Shak-Yuldashev-Resume.pdf',
-}
+    name: 'Shak Yuldashev',
+    role: 'Software Engineer',
+    email: 'shak.yuldashev@gmail.com',
+    github: 'https://github.com/shaky1996',
+    linkedin: 'https://www.linkedin.com/in/shak-yuldashev/',
+    resume: '/Shak-Yuldashev-Resume.pdf'
+};
 
 export const aboutTimeline = [
   {
@@ -35,49 +35,59 @@ export const aboutTimeline = [
 export const skillGroups = [
   {
     title: 'Frontend',
+    description:
+      'Responsive, accessible interfaces built with modern component-driven tools.',
     items: [
-      ['React', '⚛', 'cyan'],
-      ['TypeScript', 'TS', 'blue'],
-      ['JavaScript', 'JS', 'yellow'],
-      ['HTML5', '5', 'orange'],
-      ['CSS3', '3', 'blue'],
-      ['Tailwind CSS', '〰', 'cyan'],
+      ['React', 'react', 'cyan'],
+      ['TypeScript', 'typescript', 'blue'],
+      ['JavaScript', 'javascript', 'yellow'],
+      ['HTML5', 'html', 'orange'],
+      ['CSS3', 'css', 'blue'],
+      ['Tailwind CSS', 'tailwind', 'cyan'],
     ],
   },
   {
     title: 'Mobile',
+    description:
+      'Cross-platform mobile experiences focused on usability and native performance.',
     items: [
-      ['React Native', '⚛', 'cyan'],
-      ['Expo', '▲', 'white'],
-      ['iOS', '●', 'white'],
-      ['Android', '♟', 'green'],
+      ['React Native', 'react', 'cyan'],
+      ['Expo', 'expo', 'white'],
+      ['iOS', 'ios', 'white'],
+      ['Android', 'android', 'green'],
     ],
   },
   {
     title: 'Backend',
+    description:
+      'Reliable server-side applications, APIs, and business logic.',
     items: [
-      ['Node.js', 'JS', 'green'],
-      ['Express.js', 'ex', 'white'],
-      ['Java', '☕', 'orange'],
-      ['Spring Boot', '◆', 'green'],
+      ['Node.js', 'node', 'green'],
+      ['Express.js', 'express', 'white'],
+      ['Java', 'java', 'orange'],
+      ['Spring Boot', 'spring', 'green'],
     ],
   },
   {
     title: 'Database',
+    description:
+      'Structured data modeling, querying, and persistence across SQL and NoSQL systems.',
     items: [
-      ['PostgreSQL', 'Pg', 'blue'],
-      ['MongoDB', 'MB', 'green'],
-      ['SQL', 'SQL', 'white'],
+      ['PostgreSQL', 'postgresql', 'blue'],
+      ['MongoDB', 'mongodb', 'green'],
+      ['SQL', 'sql', 'white'],
     ],
   },
   {
     title: 'Cloud & DevOps',
+    description:
+      'Deployment, automation, containers, and cloud infrastructure workflows.',
     items: [
       ['AWS', 'aws', 'orange'],
-      ['GitHub Actions', '◎', 'blue'],
-      ['CI/CD', '∞', 'cyan'],
-      ['Git', '◇', 'orange'],
-      ['Docker', '▰', 'blue'],
+      ['GitHub Actions', 'githubActions', 'blue'],
+      ['CI/CD', 'cicd', 'cyan'],
+      ['Git', 'git', 'orange'],
+      ['Docker', 'docker', 'blue'],
     ],
   },
 ]
