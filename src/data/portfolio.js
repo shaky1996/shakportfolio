@@ -96,22 +96,20 @@ export const projects = [
     {
         title: 'CDL Wallet',
         description:
-            'Mobile app for drivers to securely store documents, track expiration dates, get notifications, and share important PDFs.',
-        reason:
-            'I built CDL Wallet after seeing how difficult it is for commercial drivers to keep licenses, medical cards, registrations, and insurance documents organized and ready to share.',
+            'Mobile app for drivers to securely store documents, track expiration dates, get notifications, and share important docs.',
+        reason: 'CDL Wallet was built to solve a real problem in the trucking industry. Many CDL drivers keep important documents scattered across their phone gallery, screenshots, text messages, or paper folders. Because of that, drivers often struggle to quickly find documents when they need them, miss expiration dates, or forget to renew important records.',
         tags: ['React Native', 'Expo', 'JavaScript', 'RevenueCat'],
         image: '/projects/cdl-wallet.png',
-        
+
         primaryLabel: 'Live App',
         primaryUrl: 'https://apps.apple.com/us/app/cdl-wallet/id6768152456',
-        githubUrl: profile.github
+        githubUrl: 'https://github.com/shaky1996/cdl_wallet'
     },
     {
         title: 'IFTA Management System',
         description:
             'Web application to manage fuel tax reporting. Upload miles and fuel data and generate accurate IFTA reports.',
-        reason:
-            'I wanted to reduce the manual work and errors involved in quarterly IFTA reporting by turning mileage and fuel records into a simpler digital workflow.',
+        reason: 'I wanted to reduce the manual work and errors involved in quarterly IFTA reporting by turning mileage and fuel records into a simpler digital workflow.',
         tags: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
         image: '/projects/ifta-management.png',
         imagePosition: 'center 22%',
@@ -123,8 +121,7 @@ export const projects = [
         title: 'WGU Capstone Project',
         description:
             'Travel management system built with Java Spring Boot and PostgreSQL database.',
-        reason:
-            'This capstone project was built to demonstrate a complete production-style application using Java, Spring Boot, relational data, authentication, and server-rendered interfaces.',
+        reason: 'This capstone project was built to demonstrate a complete production-style application using Java, Spring Boot, relational data, authentication, and server-rendered interfaces.',
         tags: ['Java', 'Spring Boot', 'Thymeleaf', 'PostgreSQL'],
         image: '/projects/wgu-capstone.png',
         imagePosition: 'center 24%',

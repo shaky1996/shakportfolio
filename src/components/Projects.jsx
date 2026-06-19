@@ -78,27 +78,14 @@ export function Projects() {
           aria-labelledby={`project-tab-${activeIndex}`}
           key={activeProject.title}
         >
-          <div className="project-detail__image">
-            <img
-              src={activeProject.image}
-              alt={`${activeProject.title} project screenshot`}
-              style={{ objectPosition: activeProject.imagePosition }}
-            />
-          </div>
-
-          <div className="project-detail__body">
-            <div className="project-detail__left">
-              <h3>{activeProject.title}</h3>
-              <p className="project-detail__description">
-                {activeProject.description}
-              </p>
-            </div>
-
-            <div className="project-detail__right">
-              <div className="project-detail__section">
-                <h4>Why I built it</h4>
-                <p>{activeProject.reason}</p>
-              </div>
+          <div className="project-detail__left">
+            <h3>{activeProject.title}</h3>
+            <p className="project-detail__description">
+              {activeProject.description}
+            </p>
+            <div className="project-detail__section">
+              <h4>Why I built it</h4>
+              <p>{activeProject.reason}</p>
             </div>
 
             <div className="project-detail__technologies">
@@ -127,6 +114,13 @@ export function Projects() {
             </div>
           </div>
 
+          <div className="project-detail__image">
+            <img
+              src={activeProject.image}
+              alt={`${activeProject.title} project screenshot`}
+              style={{ objectPosition: activeProject.imagePosition }}
+            />
+          </div>
         </article>
       </div>
     </section>
