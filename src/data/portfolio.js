@@ -7,11 +7,29 @@ export const profile = {
   resume: '/Shak-Yuldashev-Resume.pdf',
 }
 
-export const stats = [
-  { value: '2+', label: 'Years Development Experience', icon: 'code' },
-  { value: 'BS', label: 'Software Engineering (WGU)', icon: 'degree' },
-  { value: 'AWS', label: 'Cloud Practitioner Certified', icon: 'cloud' },
-  { value: '1', label: 'Published Mobile Application', icon: 'rocket' },
+export const aboutTimeline = [
+  {
+    year: '2020',
+    title: 'Associate Degree',
+    subtitle: 'Business Administration',
+    organization: 'Montgomery County Community College',
+  },
+  {
+    year: '2024',
+    title: 'Full Stack Web & Mobile Development',
+    subtitle: 'Nucamp Bootcamp',
+  },
+  {
+    year: '2026',
+    title: 'Bachelor of Science',
+    subtitle: 'Software Engineering',
+    organization: 'Western Governors University',
+  },
+  {
+    year: 'Today',
+    title: 'Software Engineer',
+    subtitle: 'Building production applications',
+  },
 ]
 
 export const skillGroups = [
