@@ -97,55 +97,57 @@ export function About() {
 
   return (
     <section className="section-shell about" id="about" ref={sectionRef}>
-      <SectionTitle icon={UserRound}>About me</SectionTitle>
-      <div className="about__content">
-        <div className="about__intro">
-          <h3>
-            From real-world experience
-            <br />
-            to building <span>digital solutions.</span>
-          </h3>
-          <p>
-            I started my career in the trucking industry, where I managed safety
-            and operations. That experience taught me how to solve complex
-            problems and streamline processes. I transitioned into software
-            engineering to build scalable, reliable, and user-friendly
-            applications that create real impact.
-          </p>
-        </div>
-        <div className="timeline-picker">
-          <div className="year-wheel-wrap">
-            <div className="year-wheel__focus" aria-hidden="true" />
-            <div
-              className="year-wheel"
-              ref={wheelRef}
-              aria-label="Select a career timeline year"
-            >
-              <div className="year-wheel__spacer" aria-hidden="true" />
-              {aboutTimeline.map((item, index) => (
-                <button
-                  className={`year-wheel__item ${
-                    index === activeIndex ? 'is-active' : ''
-                  }`}
-                  type="button"
-                  key={item.year}
-                  onClick={() => selectYear(index)}
-                  aria-pressed={index === activeIndex}
-                >
-                  {item.year}
-                </button>
-              ))}
-              <div className="year-wheel__spacer" aria-hidden="true" />
-            </div>
+      <div className="about__sticky">
+        <SectionTitle icon={UserRound}>About me</SectionTitle>
+        <div className="about__content">
+          <div className="about__intro">
+            <h3>
+              From real-world experience
+              <br />
+              to building <span>digital solutions.</span>
+            </h3>
+            <p>
+              I started my career in the trucking industry, where I managed safety
+              and operations. That experience taught me how to solve complex
+              problems and streamline processes. I transitioned into software
+              engineering to build scalable, reliable, and user-friendly
+              applications that create real impact.
+            </p>
           </div>
+          <div className="timeline-picker">
+            <div className="year-wheel-wrap">
+              <div className="year-wheel__focus" aria-hidden="true" />
+              <div
+                className="year-wheel"
+                ref={wheelRef}
+                aria-label="Select a career timeline year"
+              >
+                <div className="year-wheel__spacer" aria-hidden="true" />
+                {aboutTimeline.map((item, index) => (
+                  <button
+                    className={`year-wheel__item ${
+                      index === activeIndex ? 'is-active' : ''
+                    }`}
+                    type="button"
+                    key={item.year}
+                    onClick={() => selectYear(index)}
+                    aria-pressed={index === activeIndex}
+                  >
+                    {item.year}
+                  </button>
+                ))}
+                <div className="year-wheel__spacer" aria-hidden="true" />
+              </div>
+            </div>
 
-          <article className="timeline-detail" key={activeItem.year}>
-            <span>{activeItem.year}</span>
-            <div className="timeline-detail__line" aria-hidden="true" />
-            <h4>{activeItem.title}</h4>
-            <p>{activeItem.subtitle}</p>
-            {activeItem.organization && <small>{activeItem.organization}</small>}
-          </article>
+            <article className="timeline-detail" key={activeItem.year}>
+              <span>{activeItem.year}</span>
+              <div className="timeline-detail__line" aria-hidden="true" />
+              <h4>{activeItem.title}</h4>
+              <p>{activeItem.subtitle}</p>
+              {activeItem.organization && <small>{activeItem.organization}</small>}
+            </article>
+          </div>
         </div>
       </div>
     </section>

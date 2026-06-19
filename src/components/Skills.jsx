@@ -114,7 +114,6 @@ export function Skills() {
               onClick={() => setActiveIndex(index)}
               onKeyDown={(event) => handleKeyDown(event, index)}
             >
-              <span>{String(index + 1).padStart(2, '0')}</span>
               <strong>{group.title}</strong>
               <ArrowRight size={18} aria-hidden="true" />
             </button>
